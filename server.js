@@ -15,7 +15,7 @@ const server = http.createServer(app);
 const io = socketio(server);
 
 // Set static folder
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'templates')));
 
 const botName = 'Messenger Bot';
 
@@ -27,7 +27,7 @@ io.on('connection', socket => {
     socket.join(user.room);
 
     // Welcome current user
-    socket.emit('message', formatMessage(botName, 'Welcome to Messenger!'));
+    socket.emit('message', formatMessage(botName, 'Welcome to Messenger-Web!'));
 
     // Broadcast when a user connects
     socket.broadcast
