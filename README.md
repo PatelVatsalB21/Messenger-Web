@@ -7,5 +7,6 @@ This app is live messaging app that supports rooms for joining in and messaging 
 
 ## Home Screen
 <img src="https://github.com/PatelVatsalB21/Messenger-Web/blob/master/Messenger%20Home%20Screen.PNG" alt="Home"/>
+
 ## Chat Screen
 <img src="https://github.com/PatelVatsalB21/Messenger-Web/blob/master/Messenger%20Chat%20Screen.PNG"  alt="Chat"/>
